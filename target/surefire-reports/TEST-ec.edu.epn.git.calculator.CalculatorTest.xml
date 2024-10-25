@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ec.edu.epn.git.calculator.CalculatorTest" time="0.098" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ec.edu.epn.git.calculator.CalculatorTest" time="0.1" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="EC"/>
     <property name="sun.boot.library.path" value="C:\Users\joel.piuri\.jdks\corretto-21.0.5\bin"/>
-    <property name="sun.java.command" value="C:\Users\joel.piuri\AppData\Local\Temp\surefire5016231864978454380\surefirebooter-20241025002426961_3.jar C:\Users\joel.piuri\AppData\Local\Temp\surefire5016231864978454380 2024-10-25T00-24-26_864-jvmRun1 surefire-20241025002426961_1tmp surefire_0-20241025002426961_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\joel.piuri\AppData\Local\Temp\surefire9406590290706472994\surefirebooter-20241025002628372_3.jar C:\Users\joel.piuri\AppData\Local\Temp\surefire9406590290706472994 2024-10-25T00-26-28_283-jvmRun1 surefire-20241025002628372_1tmp surefire_0-20241025002628372_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Users\joel.piuri\GR01_1BP3_622_24A\target\test-classes;D:\Users\joel.piuri\GR01_1BP3_622_24A\target\classes;C:\Users\joel.piuri\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\joel.piuri\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\joel.piuri\AppData\Local\Temp\surefire5016231864978454380\surefirebooter-20241025002426961_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\joel.piuri\AppData\Local\Temp\surefire9406590290706472994\surefirebooter-20241025002628372_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.5+11-LTS"/>
@@ -60,10 +60,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="given_two_integers_when_subtraction_then_ok" classname="ec.edu.epn.git.calculator.CalculatorTest" time="0.0">
+  <testcase name="given_a_time_when_timeout_then_exception" classname="ec.edu.epn.git.calculator.CalculatorTest" time="0.094">
     <system-out><![CDATA[setUpClass()
 setUp()
-Test 2
+Test 4
+tearDown()
+]]></system-out>
+  </testcase>
+  <testcase name="given_two_integers_when_add_then_ok" classname="ec.edu.epn.git.calculator.CalculatorTest" time="0.001">
+    <system-out><![CDATA[setUp()
+Test 1
 tearDown()
 ]]></system-out>
   </testcase>
@@ -73,15 +79,9 @@ Test 3
 tearDown()
 ]]></system-out>
   </testcase>
-  <testcase name="given_two_integers_when_add_then_ok" classname="ec.edu.epn.git.calculator.CalculatorTest" time="0.0">
+  <testcase name="given_two_integers_when_subtraction_then_ok" classname="ec.edu.epn.git.calculator.CalculatorTest" time="0.001">
     <system-out><![CDATA[setUp()
-Test 1
-tearDown()
-]]></system-out>
-  </testcase>
-  <testcase name="given_a_time_when_timeout_then_exception" classname="ec.edu.epn.git.calculator.CalculatorTest" time="0.094">
-    <system-out><![CDATA[setUp()
-Test 4
+Test 2
 tearDown()
 ]]></system-out>
   </testcase>

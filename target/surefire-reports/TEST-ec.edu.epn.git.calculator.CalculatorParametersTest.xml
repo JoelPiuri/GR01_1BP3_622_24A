@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="EC"/>
     <property name="sun.boot.library.path" value="C:\Users\joel.piuri\.jdks\corretto-21.0.5\bin"/>
-    <property name="sun.java.command" value="C:\Users\joel.piuri\AppData\Local\Temp\surefire9406590290706472994\surefirebooter-20241025002628372_3.jar C:\Users\joel.piuri\AppData\Local\Temp\surefire9406590290706472994 2024-10-25T00-26-28_283-jvmRun1 surefire-20241025002628372_1tmp surefire_0-20241025002628372_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\joel.piuri\AppData\Local\Temp\surefire15109157394389495672\surefirebooter-20241025003136350_3.jar C:\Users\joel.piuri\AppData\Local\Temp\surefire15109157394389495672 2024-10-25T00-31-36_242-jvmRun1 surefire-20241025003136350_1tmp surefire_0-20241025003136350_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Users\joel.piuri\GR01_1BP3_622_24A\target\test-classes;D:\Users\joel.piuri\GR01_1BP3_622_24A\target\classes;C:\Users\joel.piuri\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\joel.piuri\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\joel.piuri\AppData\Local\Temp\surefire9406590290706472994\surefirebooter-20241025002628372_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\joel.piuri\AppData\Local\Temp\surefire15109157394389495672\surefirebooter-20241025003136350_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.5+11-LTS"/>
@@ -65,5 +65,5 @@
   <testcase name="given_parameters_when_addition_then_summation[2]" classname="ec.edu.epn.git.calculator.CalculatorParametersTest" time="0.0"/>
   <testcase name="given_parameters_when_addition_then_summation[3]" classname="ec.edu.epn.git.calculator.CalculatorParametersTest" time="0.0"/>
   <testcase name="given_parameters_when_addition_then_summation[4]" classname="ec.edu.epn.git.calculator.CalculatorParametersTest" time="0.0"/>
-  <testcase name="given_parameters_when_addition_then_summation[5]" classname="ec.edu.epn.git.calculator.CalculatorParametersTest" time="0.001"/>
+  <testcase name="given_parameters_when_addition_then_summation[5]" classname="ec.edu.epn.git.calculator.CalculatorParametersTest" time="0.0"/>
 </testsuite>
